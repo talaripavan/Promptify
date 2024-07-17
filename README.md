@@ -11,4 +11,6 @@ Named Entity Recognition (NER) is a subtask of information extraction that seeks
 
 - **explain_demo.py**: Using the 'explain.jinja' template , we can summarize the entire sentences.
 
-- **get_prompt_templates.py**: This code utilizes the `promptify` library to generate prompts based on a specified template. The `generate_promptify_prompt` function creates a customized prompt using the 'qa.jinja' template, context, question, model name, and domain, and prints the resulting prompt.
+- **get_prompt_templates.py**: This code utilizes the `promptify` library to generate prompts based on a specified template. The `generate_promptify_prompt` function creates a prompt using the 'qa.jinja' template, context, question, model name, and domain, and prints the resulting prompt.
+
+- **qa_demo.py**:  A question-answering template that generates answers from the given context.
