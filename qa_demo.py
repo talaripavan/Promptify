@@ -18,3 +18,4 @@ result = pipe.fit(
     )
 
 print(result)
+pprint(result)
