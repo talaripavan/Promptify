@@ -1,0 +1,33 @@
+Based on the retrieved information, please provide a comprehensive answer to the query: 
+{query_str}
+Retrieved context:
+{context_str}
+Please structure your response as follows:
+1. Brief Answer (1-2 sentences)
+2. Detailed Explanation
+3. Key Takeaways (bullet points)
+4. Sources (cite the relevant retrieved documents)
+Response:
+Technical analysis for the query: 
+{query_str}
+Relevant information from retrieved documents:
+{context_str}
+Please provide a technical response with the following structure:
+1. High-level Overview
+2. Technical Details
+   a. Concepts
+   b. Implementation considerations
+   c. Code example (if applicable)
+3. Pros and Cons
+4. Best Practices
+5. References (cite relevant documents and include any standard technical references)
+Technical Response:
+Please provide a concise summary addressing the query: {query_str}
+Retrieved context:{context_str}
+Summary structure:
+1. One-sentence answer
+2. Key points (3-5 bullet points)
+3. Conclusion (1-2 sentences)
+4. Sources
+
+
