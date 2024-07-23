@@ -1,4 +1,4 @@
-# Promptify
+# Promptify https://github.com/promptslab/Promptify
 ### Make sure we are using Python 3.11.7 .
 Experimenting with Promptify for our Agent.
 ```
@@ -14,3 +14,5 @@ Named Entity Recognition (NER) is a subtask of information extraction that seeks
 - **get_prompt_templates.py**: This code utilizes the `promptify` library to generate prompts based on a specified template. The `generate_promptify_prompt` function creates a prompt using the 'qa.jinja' template, context, question, model name, and domain, and prints the resulting prompt.
 
 - **qa_demo.py**:  A question-answering template that generates answers from the given context.
+
+# Prompt Source https://github.com/bigscience-workshop/promptsource
