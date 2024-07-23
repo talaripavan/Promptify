@@ -1,0 +1,57 @@
+<!-- general_response.j2 -->
+{% raw %}
+Based on the retrieved information, please provide a comprehensive answer to the query: "{{ query }}"
+
+Retrieved context:
+{% for doc in context %}
+- {{ doc.text }}
+{% endfor %}
+
+Please structure your response as follows:
+1. Brief Answer (1-2 sentences)
+2. Detailed Explanation
+3. Key Takeaways (bullet points)
+4. Sources (cite the relevant retrieved documents)
+
+Response:
+{% endraw %}
+
+<!-- technical_response.j2 -->
+{% raw %}
+Technical analysis for the query: "{{ query }}"
+
+Relevant information from retrieved documents:
+{% for doc in context %}
+- {{ doc.text }}
+{% endfor %}
+
+Please provide a technical response with the following structure:
+1. High-level Overview
+2. Technical Details
+   a. Concepts
+   b. Implementation considerations
+   c. Code example (if applicable)
+3. Pros and Cons
+4. Best Practices
+5. References (cite relevant documents and include any standard technical references)
+
+Technical Response:
+{% endraw %}
+
+<!-- summary_response.j2 -->
+{% raw %}
+Please provide a concise summary addressing the query: "{{ query }}"
+
+Key information from retrieved documents:
+{% for doc in context %}
+- {{ doc.text }}
+{% endfor %}
+
+Summary structure:
+1. One-sentence answer
+2. Key points (3-5 bullet points)
+3. Conclusion (1-2 sentences)
+4. Sources
+
+Summarized Response:
+{% endraw %}
