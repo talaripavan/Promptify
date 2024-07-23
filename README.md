@@ -1,5 +1,6 @@
-# Promptify https://github.com/promptslab/Promptify
+# Promptify 
 ### Make sure we are using Python 3.11.7 .
+#### https://github.com/promptslab/Promptify
 Experimenting with Promptify for our Agent.
 ```
 pip install promptify
@@ -15,4 +16,16 @@ Named Entity Recognition (NER) is a subtask of information extraction that seeks
 
 - **qa_demo.py**:  A question-answering template that generates answers from the given context.
 
-# Prompt Source https://github.com/bigscience-workshop/promptsource
+# Prompt Source 
+### Make sure we are using Python 3.7.0 or 3.8.0 .
+#### https://github.com/bigscience-workshop/promptsource
+```
+pip install promptsource 
+```
+
+```
+pip install urllib3==1.26.6
+```
+
+- **prompt_source_demo.py**: Just POC of Prompt Source .
+
