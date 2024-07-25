@@ -1,3 +1,9 @@
+# Jinja2 Template
+```
+pip install jinja2==3.1.4
+```
+- **jinja2_chat_template.py**: We are using Jinja2 templates and Intgrating it with llama Index .
+
 # Promptify 
 ### Make sure we are using Python 3.11.7 .
 #### https://github.com/promptslab/Promptify
